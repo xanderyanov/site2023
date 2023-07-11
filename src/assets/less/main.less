@@ -1,0 +1,39 @@
+@import "mmxins.less";
+
+html,
+body {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.app {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.app__header {}
+
+.app__center {}
+
+.app__footer {
+	margin-top: auto;
+}
+
+.cont {
+	width: 100%;
+}
+
+.w {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1320px;
+
+	.at-max(1340px, {
+		padding-left: 10px;
+		padding-right: 10px;
+	});
+}
